@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 307884525968739167}
   - component: {fileID: 3020415223668955941}
   - component: {fileID: 724379638421245788}
+  - component: {fileID: 6318719845256459426}
   m_Layer: 0
   m_Name: BluePrefab
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &307884525968739167
 MeshFilter:
@@ -105,3 +106,15 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6318719845256459426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6030948326865827768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c477bd68a75f4587a62d4efeb1bbd65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
